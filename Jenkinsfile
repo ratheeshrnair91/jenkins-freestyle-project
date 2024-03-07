@@ -36,7 +36,7 @@ pipeline {
 
             steps {
 
-                sh 'cat ./deploy.sh'
+                sh 'cat ./run.sh'
 
                 sh 'echo "Deploying..."'
 
